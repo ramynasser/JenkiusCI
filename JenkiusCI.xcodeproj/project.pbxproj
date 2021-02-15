@@ -15,6 +15,7 @@
 		CF1298D825DA9B5E0080884E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1298D625DA9B5E0080884E /* LaunchScreen.storyboard */; };
 		CF1298E325DA9B5E0080884E /* JenkiusCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1298E225DA9B5E0080884E /* JenkiusCITests.swift */; };
 		CF1298EE25DA9B5E0080884E /* JenkiusCIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1298ED25DA9B5E0080884E /* JenkiusCIUITests.swift */; };
+		CF1298FC25DAA0B30080884E /* convertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1298FB25DAA0B30080884E /* convertor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CF1298E925DA9B5E0080884E /* JenkiusCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkiusCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1298ED25DA9B5E0080884E /* JenkiusCIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JenkiusCIUITests.swift; sourceTree = "<group>"; };
 		CF1298EF25DA9B5E0080884E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1298FB25DAA0B30080884E /* convertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CF1298D425DA9B5E0080884E /* Assets.xcassets */,
 				CF1298D625DA9B5E0080884E /* LaunchScreen.storyboard */,
 				CF1298D925DA9B5E0080884E /* Info.plist */,
+				CF1298FB25DAA0B30080884E /* convertor.swift */,
 			);
 			path = JenkiusCI;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1298FC25DAA0B30080884E /* convertor.swift in Sources */,
 				CF1298D025DA9B5D0080884E /* ViewController.swift in Sources */,
 				CF1298CC25DA9B5D0080884E /* AppDelegate.swift in Sources */,
 				CF1298CE25DA9B5D0080884E /* SceneDelegate.swift in Sources */,
