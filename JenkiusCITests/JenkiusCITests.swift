@@ -30,5 +30,10 @@ class JenkiusCITests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testConversionForOne() {
+        let result = Converter.convert(3)
+        XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
+    }
 
 }

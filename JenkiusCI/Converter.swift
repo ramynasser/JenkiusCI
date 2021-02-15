@@ -7,10 +7,10 @@
 //
 
 import Foundation
-class converter {
-    func convert(values:Int) -> String {
+class Converter {
+    static func convert(_ values:Int) -> String {
         var str = ""
-        for value in 0..<values-1 {
+        for _  in 0..<values-1 {
             str.append("I")
         }
         return str
